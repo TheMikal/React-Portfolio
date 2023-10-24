@@ -2,9 +2,6 @@
   "name": "react-portfolio",
   "version": "1.0.0",
   "description": "",
-  "dependencies": {
-    "react-scripts": "^5.0.1"
-  },
   "scripts": {
     "start": "cd portfolio && npm start"
   },
