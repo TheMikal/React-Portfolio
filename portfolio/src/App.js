@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import ARC from './assets/images/ARC.png'
+import ChattyCat from './assets/images/ChattyCat.png'
+import me from './assets/images/me.jpg'
+import Quizimation from './assets/images/Quizimation.png'
 
 function App() {
   return (
     <div>
       <header class="header">
-        <h1 id="name"> Michael Taraschi </h1>
+        <h1 id="name" > Michael Taraschi </h1>
         <nav>
           <section>
               <a href="#aboutMe">About Me</a>
@@ -22,7 +25,7 @@ function App() {
         </header>
       <aside>
         <p>Photo of Me!</p>
-        <img src="./assets/images/me2 (2).jpg" alt="me"/>
+        <img src={me} alt="me"/>
         <ul>
             <p>This is where you'll find me all over the internet!</p>
             <li>Facebook</li>
@@ -42,19 +45,19 @@ function App() {
         <article>
           <h3>ARC: Anime Release Calendar</h3>
           <a href="https://jakrau.github.io/ARC/">
-            <img src="./assets/images/ARC.png" alt="the ARC website main page"/>
+            <img src= {ARC} alt="the ARC website main page"/>
           </a>
         </article>
         <article>
           <h3>Quizimation</h3>
           <a href="https://github.com/TheMikal/Quizimation">
-            <img src="./assets/images/Quizimation.png" alt="the Quizimation website"/>
+            <img src={Quizimation} alt="the Quizimation website"/>
           </a>
         </article>
         <article>
           <h3>Chatty Cat: A blogging site about cats</h3>
           <a href="http://https://chatty-cat-d7c479363922.herokuapp.com/">
-            <img src="./assets/images/ChattyCat.png" alt="the Chatty Cat main page"/>
+            <img src={ChattyCat} alt="the Chatty Cat main page"/>
           </a>
         </article>
         <article>
@@ -75,7 +78,6 @@ function App() {
         <ul>
           <p>Contact Me Here:</p>
           <li>Email: Mikeyt940@gmail.com</li>
-          <li>Facebook</li>
           <li>Instagram</li>
           <li><a href="https://twitter.com/mikal_the_twit">Twitter</a></li>
           <li><a href="https://www.youtube.com/@therealphiljenkins/featured">YouTube</a></li>
