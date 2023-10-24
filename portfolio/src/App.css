@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: "Concert One";
 }
 
 .App-logo {
@@ -37,6 +38,17 @@
   }
 }
 
+.body{
+  font-family: "Concert One";
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.body img {
+  max-width: 875px;
+}
 
 .header {
   font-family: "Press Start 2P";
@@ -44,4 +56,21 @@
   justify-content:space-around;
   flex-direction: column;
   align-items: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#myWork {
+  max-width: 80vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contactMe {
+  display: flex;
+  justify-content: space-around;
 }
